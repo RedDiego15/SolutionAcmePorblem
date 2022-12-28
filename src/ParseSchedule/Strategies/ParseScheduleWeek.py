@@ -15,10 +15,11 @@ def parseScheduleWeek(parseInformation):
             dayOfTheWeek = startTime[0:2]
             startTime,endTime=parseTime(startTime,endTime)
             employee_schedule.setdefault(dayOfTheWeek,(startTime, endTime))
-        
         employee = CreatorRegularEmployee(name,employee_schedule).factory_method()
+        
         schedules.append(employee)
     file.close()
+    return schedules
                     
 def parseTime(startTime,endTime):
     startTime = startTime[2:]
