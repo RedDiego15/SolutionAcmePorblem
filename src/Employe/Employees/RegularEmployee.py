@@ -1,6 +1,7 @@
-from abc import ABC, abstractmethod
+from Employe.Employees.Employee import Employee
 
-class RegularEmployee(ABC):
+
+class RegularEmployee(Employee):
     
     def __init__(self, name, schedule):
         self.name = name
