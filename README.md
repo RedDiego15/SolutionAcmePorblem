@@ -8,7 +8,15 @@ The modular architecture was adopted for this solution due to its ability to dec
 
 ## Aproach and methodology
 
-In my approach, I utilized design patterns to ensure that the program could accommodate additional functions or changes to inputs. To do this, I followed the following steps: 1) I compiled a list of requirements \n 2) created a UML diagram to abstractly represent the modules that would be necessary. 3) I identified design patterns that could be applied to these modules to facilitate scalability and maintainability. 4) I implemented tests to validate the effectiveness of the chosen design patterns.
+In my approach, I utilized design patterns to ensure that the program could accommodate additional functions or changes to inputs. To do this, I followed the following steps:
+
+    1. I compiled a list of requirements '
+
+    2. created a UML diagram to abstractly represent the modules that would be necessary.
+
+    3. I identified design patterns that could be applied to these modules to facilitate scalability and maintainability.
+
+    4. I implemented tests to validate the effectiveness of the chosen design patterns.
 
 ### How to Run 🔧
 
