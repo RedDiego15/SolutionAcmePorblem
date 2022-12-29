@@ -31,3 +31,5 @@ In case you are from the batch, go to the directory of the project then
 go to src, once in this directory run the script with "python main.py"
 
 In case you wanna try another file for input, make sure it has de the name "file.txt" and it is in the same level as main.py file
+
+for testing, from the terminal go to src directory of the project and run the command "python -m pytest test/"
