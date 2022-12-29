@@ -1,6 +1,5 @@
 from Employee.Employees.Employee import Employee
 
-
 class RegularEmployee(Employee):
     
     def __init__(self, name, schedule):

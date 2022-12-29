@@ -1,4 +1,3 @@
-
 def getCoincidenceCountIteration(schedule):
     coincidences={}
     for i in range(len(schedule)):
@@ -25,3 +24,5 @@ def compareHours(employeeA,employeeB,coincidences):
             if((timeAstart<=timeBstart<=timeAfin and timeAstart<=timeBfin<=timeAfin) or
                 (timeBstart<=timeAstart<=timeBfin and timeBstart<=timeAfin<=timeBfin) ):
                     coincidences[(employeeA,employeeB)] += 1
+    
+    return coincidences[(employeeA,employeeB)] 
