@@ -33,3 +33,13 @@ go to src, once in this directory run the script with "python main.py"
 In case you wanna try another file for input, make sure it has de the name "file.txt" and it is in the same level as main.py file
 
 for testing, from the terminal go to src directory of the project and run the command "python -m pytest test/"
+
+Make sure to have pytest Library globally to run the test, if not follow the next steps to create a virtual env and install pytest
+
+    1. For create environment, from the terminal go to directory of the project, make sure to be in the same level as src folder, then run the command "python -m venv venv"
+
+    2. Activate the environment, for windows in the terminal at the same level of venv folder run the command ".\venv\Scripts\activate"
+
+    3.Once the environment is activated, install pytest library with the command "pip install pytest"
+
+    4. with the virtual env activated in the terminal go to src folder with the command "cd src/" and then run the command "python -m pytest test/"
