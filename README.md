@@ -26,6 +26,8 @@ In my approach, I utilized design patterns to ensure that the program could acco
 
 ### How to Run 🔧
 
-go to src/main.py and run the script.
+In case you are from the batch, go to the directory of the project then
 
-In case you wanna try another file, make sure it has de the name "file.txt" and it is in the same level as main.py file
+go to src, once in this directory run the script with "python main.py"
+
+In case you wanna try another file for input, make sure it has de the name "file.txt" and it is in the same level as main.py file
