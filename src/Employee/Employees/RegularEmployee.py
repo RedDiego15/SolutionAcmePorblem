@@ -1,4 +1,4 @@
-from Employe.Employees.Employee import Employee
+from Employee.Employees.Employee import Employee
 
 
 class RegularEmployee(Employee):

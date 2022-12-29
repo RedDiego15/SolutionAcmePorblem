@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from Employe.Employees.Employee import Employee
+from Employee.Employees.Employee import Employee
 
 
 class CreatorEmployee(ABC):

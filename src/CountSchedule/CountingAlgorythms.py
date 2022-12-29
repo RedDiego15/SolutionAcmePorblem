@@ -1,5 +1,4 @@
 
-import datetime
 def getCoincidenceCountIteration(schedule):
     coincidences={}
     for i in range(len(schedule)):

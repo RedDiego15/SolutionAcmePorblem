@@ -1,4 +1,4 @@
-from Employe.Creators.CreatorRegularEmployee import CreatorRegularEmployee
+from Employee.Creators.CreatorRegularEmployee import CreatorRegularEmployee
 from datetime import time 
 
 def parseScheduleWeek(parseInformation):

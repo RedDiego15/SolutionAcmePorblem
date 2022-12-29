@@ -1,6 +1,6 @@
 
-from Employe.Creators.CreatorEmployee import CreatorEmployee
-from Employe.Employees.RegularEmployee import RegularEmployee
+from Employee.Creators.CreatorEmployee import CreatorEmployee
+from Employee.Employees.RegularEmployee import RegularEmployee
 
 
 class CreatorRegularEmployee(CreatorEmployee):
